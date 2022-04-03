@@ -84,25 +84,9 @@
                 <!--<a href="{{ url('/attend/attendance/update') }}?staff={{$staff}}">退勤</a>-->
             </form>
                 <a id="btn" href="{{ url('/attend/attendance/delete') }}?staff={{$staff}}" class="btn btn-primary">出勤/退勤消去</a>
-                <!--<script>
-                    var btn = document.getElementById('btn');
-                    
-                    btn.addEventListener('click', function() {
-                    
-                        window.confirm('最新の出勤情報を削除しますか？');
-                    
-                    })
-                </script>-->
+                
                 <a href="{{ url('/attend') }}" class="btn btn-primary">スタッフ一覧へ</a>
             </div>
 </div>
-<!--<script>
-var btn = document.getElementById('btn');
- 
- btn.addEventListener('click', function() {
-  
-     window.confirm('最新の出勤情報を削除しますか？');
-  
- })
-</script>-->
+
 @endsection
