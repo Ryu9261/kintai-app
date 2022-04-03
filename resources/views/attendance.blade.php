@@ -56,11 +56,7 @@
         </style>
     </head>
 @section('content')
-<div class="content">
-    
-
-    
-        
+<div class="content">  
             <p><b>{{$staff}}</b></p>
             
             <table border="1" bgcolor="white" class="container-sm">
